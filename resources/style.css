@@ -1,14 +1,67 @@
 body {
-    margin: auto;
+    align-content: center;
 }
+.container { 
+    background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
     font-weight: bold;
-    color: white; 
-}
-a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    text-align: center;
     color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+}
+h2, p, h3, h5 {
+    text-align: center;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.navbar {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: dimgray;
+    font-size: 18px;
+    }
+#trademark {
+        font-size: 11px;
 }
