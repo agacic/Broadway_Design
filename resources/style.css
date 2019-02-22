@@ -23,10 +23,13 @@ h2 {
     color: black;
 }
 
-a {
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+ul a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     align-content: center;
     font-size: 18px;
 }
@@ -60,8 +63,10 @@ h5 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: dimgray;
+}
+.navbar a {
     font-size: 18px;
-    }
+}
 #trademark {
         font-size: 11px;
 }
